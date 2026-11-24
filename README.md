@@ -1,2 +1,25 @@
-# -p-----
- 𝐏𝐥𝐚𝐲𝐞𝐫𝐬 𝐠𝐮𝐞𝐬𝐬 𝐡𝐢𝐝𝐝𝐞𝐧 𝐰𝐨𝐫𝐝𝐬 𝐥𝐞𝐭𝐭𝐞𝐫-𝐛𝐲-𝐥𝐞𝐭𝐭𝐞𝐫 𝐰𝐢𝐭𝐡𝐢𝐧 𝐥𝐢𝐦𝐢𝐭𝐞𝐝 𝐚𝐭𝐭𝐞𝐦𝐩𝐭𝐬, 𝐝𝐞𝐦𝐨𝐧𝐬𝐭𝐫𝐚𝐭𝐢𝐧𝐠 𝐜𝐨𝐫𝐞 𝐏𝐲𝐭𝐡𝐨𝐧 𝐥𝐨𝐠𝐢𝐜, 𝐥𝐨𝐨𝐩𝐬, 𝐜𝐨𝐧𝐝𝐢𝐭𝐢𝐨𝐧𝐚𝐥𝐬, 𝐚𝐧𝐝 𝐬𝐭𝐫𝐢𝐧𝐠 𝐡𝐚𝐧𝐝𝐥𝐢𝐧𝐠.
+
+# 🎯 Hangman Game
+
+A classic command-line (or web-based) Hangman game where players try to guess a hidden word one letter at a time before running out of lives.
+
+## ✨ Features
+
+- **Random Word Selection:** Pulls from a categorized list of words (Animals, Countries, Tech, Movies, etc.).
+- **Difficulty Levels:** Choose between Easy, Medium, and Hard modes.
+- **Visual ASCII Art:** Dynamic gallows progression that updates with each incorrect guess.
+- **Input Validation:** Prevents duplicate guesses and alerts the player on invalid characters.
+- **Score Tracking:** Keeps track of wins, losses, and current win streaks.
+
+## 🛠️ Built With
+
+- **Language:** Python 3.x *(Update this to JavaScript, C++, Java, etc., based on your project)*
+- **Libraries:** Standard Library (`random`, `os`)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have Python installed on your machine. You can check by running:
+```bash
+python --version
